@@ -1,0 +1,90 @@
+guardar_fila1_2.php - Cambia 1.1 a 1.2, 11 a 12.
+guardar_fila1_3.php - Cambia 1.1 a 1.3, 11 a 13.
+guardar_fila2_1.php - Cambia 1.1 a 2.1, 11 a 21.
+guardar_fila2_2.php - Cambia 1.1 a 2.2, 11 a 22.
+guardar_fila2_3.php - Cambia 1.1 a 2.3, 11 a 23.
+guardar_fila2_4.php - Cambia 1.1 a 2.4, 11 a 24.
+guardar_fila2_5.php - Cambia 1.1 a 2.5, 11 a 25.
+guardar_fila2_6.php - Cambia 1.1 a 2.6, 11 a 26.
+guardar_fila3_1.php - Cambia 1.1 a 3.1, 11 a 31.
+guardar_fila4_1.php - Cambia 1.1 a 4.1, 11 a 41.
+guardar_fila4_3.php - Cambia 1.1 a 4.3, 11 a 43.
+guardar_fila5_1.php - Cambia 1.1 a 5.1, 11 a 51.
+guardar_fila5_2.php - Cambia 1.1 a 5.2, 11 a 52.
+guardar_fila5_3.php - Cambia 1.1 a 5.3, 11 a 53.
+guardar_fila5_4.php - Cambia 1.1 a 5.4, 11 a 54.
+guardar_fila5_5.php - Cambia 1.1 a 5.5, 11 a 55.
+guardar_fila5_6.php - Cambia 1.1 a 5.6, 11 a 56.
+guardar_fila5_7.php - Cambia 1.1 a 5.7, 11 a 57.
+guardar_fila5_8.php - Cambia 1.1 a 5.8, 11 a 58.
+guardar_fila6_1.php - Cambia 1.1 a 6.1, 11 a 61.
+
+mostr@r solo cu@ndo el est@tus es nok y mostr@r 
+list@ de los error  solo cundo es NOK 
+
+
+
+ALTER TABLE auditorias ADD
+COLUMN idProblemasUnoDos varchar (120)
+AFTER accionesUnoDos
+
+icono cerrar
+                <span id="closeModal" class="close"><i class="fas fa-times"></i></span>                    <h2>Observaciones y Acciones</h2>
+
+
+
+  <!-- Fila para la descripción -->
+                <tr>
+                    <td colspan="9" class="text-start small fw-bold text-justify">
+                        5. 5S & AMBIENTAL / SEGURIDAD
+                    </td>
+                </tr>
+
+generar los corres cada vez que se encuentre un no conformidad 
+mostrar los correos de las personas para que les llegue la notificacion
+esto sera las veces que sea necesario solo mandar los datos de la
+no conformida y del seguimiento mostrar el boton de enviar correo 
+en cada una de las fila mandar los datos que se le mandan hasta el punto de sus nok 
+
+
+
+
+
+DELIMITER //
+ 
+CREATE TRIGGER update_tuvo_nok_auditoria_proceso
+BEFORE UPDATE ON auditoria_proceso
+FOR EACH ROW
+BEGIN
+    IF NEW.estatusUno = 'NOK' OR 
+       NEW.estatusDos = 'NOK' OR 
+       NEW.estatusTres = 'NOK' OR 
+       NEW.estatusCuatro = 'NOK' OR 
+       NEW.estatusCinco = 'NOK' OR 
+       NEW.estatusSeis = 'NOK' OR 
+       NEW.estatusSiete = 'NOK' OR 
+       NEW.estatusOcho = 'NOK' OR 
+       NEW.estatusNueve = 'NOK' OR 
+       NEW.estatusDiez = 'NOK' OR 
+       NEW.estatusOnce = 'NOK' OR 
+       NEW.estatusDoce = 'NOK' OR 
+       NEW.estatusTrece = 'NOK' OR 
+       NEW.estatusCatorce = 'NOK' OR 
+       NEW.estatusQuince = 'NOK' OR 
+       NEW.estatusDieciseis = 'NOK' OR 
+       NEW.estatusDiecisiete = 'NOK' OR 
+       NEW.estatusDieciocho = 'NOK' OR 
+       NEW.estatusDiecinueve = 'NOK' OR 
+       NEW.estatusVeinte = 'NOK' OR 
+       NEW.estatusVeintiuno = 'NOK' OR
+       NEW.estatusVeintidos = 'NOK' OR
+       NEW.estatusVeintitres = 'NOK' OR
+       NEW.estatusVeinticuatro = 'NOK' OR 
+       NEW.estatusVeinticinco = 'NOK' THEN
+        SET NEW.tuvo_nok = 1;
+    ELSE
+        SET NEW.tuvo_nok = OLD.tuvo_nok; -- Mantiene el valor anterior si no hay NOK
+    END IF;
+END//
+ 
+DELIMITER ;

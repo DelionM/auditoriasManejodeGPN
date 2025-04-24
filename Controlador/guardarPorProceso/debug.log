@@ -1,0 +1,1447 @@
+Datos POST: Array
+(
+    [id] => 183
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => MAZDA
+    [proceso_auditado] => FENDER
+    [parte_auditada] => vsdvdvsd
+    [nivelIngenieria] => sdvvsddvs
+    [nave] => Nave 4
+    [nombre_supervisor] => vsdvdsvsdsdv
+    [unidad] => Unidad 3
+    [fecha] => 2025-04-27
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 186
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => MAZDA
+    [proceso_auditado] => ASFALTOS MAGNETICOS
+    [parte_auditada] => vdsvsd
+    [nivelIngenieria] => sdvdsvdvs
+    [nave] => Nave 3
+    [nombre_supervisor] => sdvvsdsdvds
+    [unidad] => Unidad 3
+    [fecha] => 2025-04-27
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 191
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => KIA
+    [proceso_auditado] => ASFALTO
+    [parte_auditada] => dsvdvs
+    [nivelIngenieria] => vdsvdssvd
+    [nave] => Nave 9
+    [nombre_supervisor] => sdvvsdsdv
+    [unidad] => Unidad 3
+    [fecha] => 2025-04-02
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 192
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => MAZDA
+    [proceso_auditado] => INSULATOR J03/J59
+    [parte_auditada] => sdsdv
+    [nivelIngenieria] => vdsvds
+    [nave] => Nave 5
+    [nombre_supervisor] => vdsvdvsd
+    [unidad] => Unidad 3
+    [fecha] => 2025-04-08
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 196
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => MAZDA
+    [proceso_auditado] => FENDER
+    [parte_auditada] => NUEVA AUDITORÍA DE PROCESO POR CAPAS
+    [nivelIngenieria] => NUEVA AUDITORÍA DE PROCESO POR CAPAS
+    [nave] => Nave 3
+    [nombre_supervisor] => NUEVA AUDITORÍA DE PROCESO POR CAPAS
+    [unidad] => Unidad 3
+    [fecha] => 2025-04-24
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 196
+    [observacionesDos] => cxzcxz
+    [accionesDos] => xczxz
+    [idProblemasDos] => Identificación de materiales
+    [estatusDos] => NOK
+    [fecha_filaDos] => 2025-04-11
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-12 155821.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php103B.tmp
+            [error] => 0
+            [size] => 91615
+        )
+
+)
+
+Datos POST (fila 3): Array
+(
+    [id] => 196
+    [observacionesTres] => ikuykik
+    [accionesTres] => iukiiku
+    [idProblemasTres] => Auditoria de capas
+    [estatusTres] => NOK
+    [fecha_filaTres] => 2025-04-29
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-17 145422.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpF306.tmp
+            [error] => 0
+            [size] => 195497
+        )
+
+)
+
+Datos POST: Array
+(
+    [id] => 200
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => MAZDA
+    [proceso_auditado] => INSULATOR J03/J59
+    [parte_auditada] => nj ghcn hg nghcgf gf
+    [nivelIngenieria] => nh fngh fhg gfh gfh 
+    [nave] => Nave 1
+    [nombre_supervisor] => gfh gfh gh
+    [unidad] => Unidad 2
+    [fecha] => 2025-04-11
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 200
+    [observacionesDos] => gggg
+    [accionesDos] => ggg
+    [idProblemasDos] => Matriz de Habilidades
+    [estatusDos] => NOK
+    [fecha_filaDos] => 2025-04-04
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-18 125549.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php9EA3.tmp
+            [error] => 0
+            [size] => 29727
+        )
+
+)
+
+Datos POST (fila 3): Array
+(
+    [id] => 200
+    [observacionesTres] => gffgfg
+    [accionesTres] => gfgfgf
+    [idProblemasTres] => Identificación de materiales
+    [estatusTres] => NOK
+    [fecha_filaTres] => 2025-04-18
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-12 155821.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpC9EA.tmp
+            [error] => 0
+            [size] => 91615
+        )
+
+)
+
+Datos POST (fila 4): Array
+(
+    [id] => 196
+    [observacionesCuatro] => dsw
+    [accionesCuatro] => swqa
+    [idProblemasCuatro] => Matriz de EPP
+    [estatusCuatro] => NOK
+    [fecha_filaCuatro] => 2025-04-02
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-17 145521.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpC6CC.tmp
+            [error] => 0
+            [size] => 154275
+        )
+
+)
+
+Datos POST (fila 5): Array
+(
+    [id] => 196
+    [observacionesCinco] => 
+    [accionesCinco] => 
+    [idProblemasCinco] => 
+    [estatusCinco] => OK
+    [fecha_filaCinco] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 6): Array
+(
+    [id] => 196
+    [observacionesSeis] => sA
+    [accionesSeis] => Sa
+    [idProblemasSeis] => Matriz de EPP
+    [estatusSeis] => NOK
+    [fecha_filaSeis] => 2025-04-17
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 094435.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpFC93.tmp
+            [error] => 0
+            [size] => 47737
+        )
+
+)
+
+Datos POST (fila 7): Array
+(
+    [id] => 196
+    [observacionesSiete] => xsa
+    [accionesSiete] => xsa
+    [idProblemasSiete] => Calibración/Verificación de equipos vigentes
+    [estatusSiete] => NOK
+    [fecha_filaSiete] => 2025-04-03
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-17 145422.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpF315.tmp
+            [error] => 0
+            [size] => 195497
+        )
+
+)
+
+Datos POST (fila 8): Array
+(
+    [id] => 196
+    [observacionesOcho] => kjh
+    [accionesOcho] => jkh
+    [idProblemasOcho] => Liberación de primera pieza
+    [estatusOcho] => NOK
+    [fecha_filaOcho] => 2025-04-09
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-17 145521.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpF703.tmp
+            [error] => 0
+            [size] => 154275
+        )
+
+)
+
+Datos POST: Array
+(
+    [id] => 203
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => MAZDA
+    [proceso_auditado] => PISOS
+    [parte_auditada] => ewwww
+    [nivelIngenieria] => ewd
+    [nave] => Nave 4
+    [nombre_supervisor] => ddddd
+    [unidad] => Unidad 2
+    [fecha] => 2025-04-02
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 203
+    [observacionesDos] => we
+    [accionesDos] => dw
+    [idProblemasDos] => Identificación de materiales
+    [estatusDos] => NOK
+    [fecha_filaDos] => 2025-04-16
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 105536.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php5AD3.tmp
+            [error] => 0
+            [size] => 31777
+        )
+
+)
+
+Datos POST: Array
+(
+    [id] => 214
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => Audi Mexico, S.A. de C.V.
+    [proceso_auditado] => Partes Plásticas
+    [parte_auditada] => fsd
+    [nivelIngenieria] => sfd
+    [nave] => Nave 3
+    [nombre_supervisor] => ddddd
+    [unidad] => Unidad 1
+    [fecha] => 2025-04-13
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 214
+    [observacionesDos] => fds
+    [accionesDos] => fds
+    [idProblemasDos] => Catalogo de NO conformidades
+    [estatusDos] => NOK
+    [fecha_filaDos] => 2025-04-09
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => basedeDatosTablaEncabezado.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php8A00.tmp
+            [error] => 0
+            [size] => 91466
+        )
+
+)
+
+Datos POST: Array
+(
+    [id] => 215
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => Audi Mexico, S.A. de C.V.
+    [proceso_auditado] => Partes Plásticas
+    [parte_auditada] => xs
+    [nivelIngenieria] => sa
+    [nave] => Nave 3
+    [nombre_supervisor] => as
+    [unidad] => Unidad 2
+    [fecha] => 2025-04-09
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 215
+    [observacionesDos] => 
+    [accionesDos] => 
+    [idProblemasDos] => 
+    [estatusDos] => OK
+    [fecha_filaDos] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 3): Array
+(
+    [id] => 215
+    [observacionesTres] => 
+    [accionesTres] => 
+    [idProblemasTres] => 
+    [estatusTres] => N/A
+    [fecha_filaTres] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 4): Array
+(
+    [id] => 215
+    [observacionesCuatro] => xsa
+    [accionesCuatro] => sa
+    [idProblemasCuatro] => Matriz de EPP
+    [estatusCuatro] => NOK
+    [fecha_filaCuatro] => 2025-04-18
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-17 145422.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpD6B4.tmp
+            [error] => 0
+            [size] => 195497
+        )
+
+)
+
+Datos POST: Array
+(
+    [id] => 222
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => Audi Mexico, S.A. de C.V.
+    [proceso_auditado] => Partes Plásticas
+    [parte_auditada] => 80A 861 529 A 4PK
+    [nivelIngenieria] => de
+    [nave] => Nave 9
+    [nombre_supervisor] => das
+    [unidad] => Unidad 3
+    [fecha] => 2025-04-28
+    [observaciones] => sa
+    [acciones] => s
+    [idProblemasUno] => Calibración/Verificación de equipos vigentes
+    [estatusUno] => NOK
+    [fecha_filaUno] => 2025-04-19
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 222
+    [observacionesDos] => r
+    [accionesDos] => f
+    [idProblemasDos] => Alerta de calidad
+    [estatusDos] => NOK
+    [fecha_filaDos] => 2025-04-19
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => c.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpE998.tmp
+            [error] => 0
+            [size] => 1400223
+        )
+
+)
+
+Datos POST (fila 3): Array
+(
+    [id] => 222
+    [observacionesTres] => fr
+    [accionesTres] => r
+    [idProblemasTres] => Identificación de materiales
+    [estatusTres] => NOK
+    [fecha_filaTres] => 2025-04-01
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 105623.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php2A99.tmp
+            [error] => 0
+            [size] => 45277
+        )
+
+)
+
+Datos POST (fila 4): Array
+(
+    [id] => 222
+    [observacionesCuatro] => frew
+    [accionesCuatro] => wfer
+    [idProblemasCuatro] => Matriz de EPP
+    [estatusCuatro] => NOK
+    [fecha_filaCuatro] => 2025-04-26
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 105536.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php6448.tmp
+            [error] => 0
+            [size] => 31777
+        )
+
+)
+
+Datos POST (fila 5): Array
+(
+    [id] => 222
+    [observacionesCinco] => fw
+    [accionesCinco] => fffeeee
+    [idProblemasCinco] => Medios de seguridad para contención
+    [estatusCinco] => NOK
+    [fecha_filaCinco] => 2025-04-02
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-25 133120.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpA5F6.tmp
+            [error] => 0
+            [size] => 30789
+        )
+
+)
+
+Datos POST (fila 6): Array
+(
+    [id] => 222
+    [observacionesSeis] => fe
+    [accionesSeis] => wfe
+    [idProblemasSeis] => Conocimiento al plan de reaccion
+    [estatusSeis] => NOK
+    [fecha_filaSeis] => 2025-04-16
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-28 171422.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpEC75.tmp
+            [error] => 0
+            [size] => 26383
+        )
+
+)
+
+Datos POST (fila 7): Array
+(
+    [id] => 222
+    [observacionesSiete] => eewewrf23r
+    [accionesSiete] => 23e
+    [idProblemasSiete] => Calibración/Verificación de equipos vigentes
+    [estatusSiete] => NOK
+    [fecha_filaSiete] => 2025-05-03
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-25 111216.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php2CBC.tmp
+            [error] => 0
+            [size] => 29096
+        )
+
+)
+
+Datos POST (fila 8): Array
+(
+    [id] => 222
+    [observacionesOcho] => fdsa
+    [accionesOcho] => fsdxc  2312
+    [idProblemasOcho] => Ejecución de 5´s
+    [estatusOcho] => NOK
+    [fecha_filaOcho] => 2025-04-18
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-17 145422.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php7927.tmp
+            [error] => 0
+            [size] => 195497
+        )
+
+)
+
+Datos POST (fila 9): Array
+(
+    [id] => 222
+    [observacionesNueve] => 76u
+    [accionesNueve] => h6
+    [idProblemasNueve] => Medios de seguridad para contención
+    [estatusNueve] => NOK
+    [fecha_filaNueve] => 2025-04-12
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-07-04 171823.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpC3BE.tmp
+            [error] => 0
+            [size] => 13009
+        )
+
+)
+
+Datos POST (fila 10): Array
+(
+    [id] => 222
+    [observacionesDiez] => u76u76
+    [accionesDiez] => tyh6
+    [idProblemasDiez] => Matriz de Habilidades
+    [estatusDiez] => NOK
+    [fecha_filaDiez] => 2025-04-10
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-28 130824.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php740.tmp
+            [error] => 0
+            [size] => 26867
+        )
+
+)
+
+Datos POST (fila 11): Array
+(
+    [id] => 222
+    [observacionesOnce] => r4
+    [accionesOnce] => 2
+    [idProblemasOnce] => Identificación de materiales
+    [estatusOnce] => NOK
+    [fecha_filaOnce] => 2025-05-02
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-28 130604.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php4600.tmp
+            [error] => 0
+            [size] => 92544
+        )
+
+)
+
+Datos POST (fila 12): Array
+(
+    [id] => 222
+    [observacionesDoce] => Observaciones 
+    [accionesDoce] => Observaciones Observaciones 
+    [idProblemasDoce] => Dispositivo de control / Instructivo /etiqueta de verificacion
+    [estatusDoce] => NOK
+    [fecha_filaDoce] => 2025-04-18
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-20 163730.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php8B76.tmp
+            [error] => 0
+            [size] => 29762
+        )
+
+)
+
+Datos POST (fila 13): Array
+(
+    [id] => 222
+    [observacionesTrece] => saccsdaz
+    [accionesTrece] => 212
+    [idProblemasTrece] => Manejo de materiales peligrosos
+    [estatusTrece] => NOK
+    [fecha_filaTrece] => 2025-04-25
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 085329.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpC9F7.tmp
+            [error] => 0
+            [size] => 46187
+        )
+
+)
+
+Datos POST (fila 14): Array
+(
+    [id] => 222
+    [observacionesCatorce] => d3
+    [accionesCatorce] => e3
+    [idProblemasCatorce] => Conocimiento al plan de reaccion
+    [estatusCatorce] => NOK
+    [fecha_filaCatorce] => 2025-04-26
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 100926.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php2FC6.tmp
+            [error] => 0
+            [size] => 141121
+        )
+
+)
+
+Datos POST (fila 15): Array
+(
+    [id] => 222
+    [observacionesQuince] => dfeqad321
+    [accionesQuince] => 212
+    [idProblemasQuince] => Matriz de EPP
+    [estatusQuince] => NOK
+    [fecha_filaQuince] => 2025-04-19
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 105536.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php67EE.tmp
+            [error] => 0
+            [size] => 31777
+        )
+
+)
+
+Datos POST (fila 16): Array
+(
+    [id] => 222
+    [observacionesDieciseis] => reeqw
+    [accionesDieciseis] => eq21
+    [idProblemasDieciseis] => Calibración/Verificación de equipos vigentes
+    [estatusDieciseis] => NOK
+    [fecha_filaDieciseis] => 2025-04-26
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-25 132959.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php9AC7.tmp
+            [error] => 0
+            [size] => 11150
+        )
+
+)
+
+Datos POST (fila 17): Array
+(
+    [id] => 222
+    [observacionesDiecisiete] => e231
+    [accionesDiecisiete] => 2e1
+    [idProblemasDiecisiete] => Medios de seguridad para contención
+    [estatusDiecisiete] => NOK
+    [fecha_filaDiecisiete] => 2025-04-12
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => basedeDatosTablaEncabezado.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpD3BA.tmp
+            [error] => 0
+            [size] => 91466
+        )
+
+)
+
+Datos POST (fila 18): Array
+(
+    [id] => 222
+    [observacionesDieciocho] => e3
+    [accionesDieciocho] => wqd 
+    [idProblemasDieciocho] => Matriz de Habilidades
+    [estatusDieciocho] => NOK
+    [fecha_filaDieciocho] => 2025-04-05
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-07-04 145716.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php144E.tmp
+            [error] => 0
+            [size] => 113167
+        )
+
+)
+
+Datos POST (fila 19): Array
+(
+    [id] => 222
+    [observacionesDiecinueve] =>  cccccccccccccccccccccccccc
+    [accionesDiecinueve] => cccccccccccccccccccccc
+    [idProblemasDiecinueve] => Área de trabajo segura
+    [estatusDiecinueve] => NOK
+    [fecha_filaDiecinueve] => 2025-05-02
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 085329.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php5B99.tmp
+            [error] => 0
+            [size] => 46187
+        )
+
+)
+
+Datos POST (fila 20): Array
+(
+    [id] => 222
+    [observacionesVeinte] => ki
+    [accionesVeinte] => uyi
+    [idProblemasVeinte] => Medios de seguridad para contención
+    [estatusVeinte] => NOK
+    [fecha_filaVeinte] => 2025-04-26
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-27 153632.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php9F2B.tmp
+            [error] => 0
+            [size] => 33241
+        )
+
+)
+
+Datos POST (fila 21): Array
+(
+    [id] => 222
+    [observacionesVeintiuno] => kkkkkkkkkkkk777777777777
+    [accionesVeintiuno] => 7757hjjj
+    [idProblemasVeintiuno] => Medios de seguridad para contención
+    [estatusVeintiuno] => NOK
+    [fecha_filaVeintiuno] => 2025-05-01
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-25 111213.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpEADB.tmp
+            [error] => 0
+            [size] => 10505
+        )
+
+)
+
+Datos POST (fila 22): Array
+(
+    [id] => 222
+    [observacionesVeintidos] => jh
+    [accionesVeintidos] => jjjjjjjjjjjjjjjj44444444444
+    [idProblemasVeintidos] => Auditoria de capas
+    [estatusVeintidos] => NOK
+    [fecha_filaVeintidos] => 2025-04-25
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 105623.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php3CA6.tmp
+            [error] => 0
+            [size] => 45277
+        )
+
+)
+
+Datos POST (fila 23): Array
+(
+    [id] => 222
+    [observacionesVeintitres] => 4gre15
+    [accionesVeintitres] => gert4s5
+    [idProblemasVeintitres] => Plan de Control
+    [estatusVeintitres] => NOK
+    [fecha_filaVeintitres] => 2025-05-03
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-28 171435.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php9323.tmp
+            [error] => 0
+            [size] => 22620
+        )
+
+)
+
+Datos POST (fila 24): Array
+(
+    [id] => 222
+    [observacionesVeinticuatro] => gre
+    [accionesVeinticuatro] => dsf
+    [idProblemasVeinticuatro] => Medios de seguridad para contención
+    [estatusVeinticuatro] => NOK
+    [fecha_filaVeinticuatro] => 2025-04-26
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-24 105536.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\phpC6F6.tmp
+            [error] => 0
+            [size] => 31777
+        )
+
+)
+
+Datos POST (fila 25): Array
+(
+    [id] => 222
+    [observacionesVeinticinco] => AccionesAcciones
+    [accionesVeinticinco] => AccionesAccionesAccionesAccionesAcciones
+    [idProblemasVeinticinco] => Calibración/Verificación de equipos vigentes
+    [estatusVeinticinco] => NOK
+    [fecha_filaVeinticinco] => 2025-04-11
+)
+
+Archivos: Array
+(
+    [archivo] => Array
+        (
+            [name] => Captura de pantalla 2024-06-25 133608.png
+            [type] => image/png
+            [tmp_name] => C:\xampp2\tmp\php1507.tmp
+            [error] => 0
+            [size] => 1129857
+        )
+
+)
+
+Datos POST: Array
+(
+    [id] => 225
+    [numero_empleado] => 1093
+    [nombre_auditor] => Delion
+    [cliente] => Audi Mexico, S.A. de C.V.
+    [proceso_auditado] => Partes Plásticas
+    [parte_auditada] => 80A 861 529 K 4PK
+    [nivelIngenieria] => dgfsdfs
+    [nave] => Nave 7A
+    [nombre_supervisor] => dsfdfs
+    [unidad] => Unidad 1
+    [fecha] => 2025-04-17
+    [observaciones] => 
+    [acciones] => 
+    [idProblemasUno] => 
+    [estatusUno] => OK
+    [fecha_filaUno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST: Array
+(
+    [id] => 225
+    [observacionesDos] => 
+    [accionesDos] => 
+    [idProblemasDos] => 
+    [estatusDos] => OK
+    [fecha_filaDos] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 3): Array
+(
+    [id] => 225
+    [observacionesTres] => 
+    [accionesTres] => 
+    [idProblemasTres] => 
+    [estatusTres] => OK
+    [fecha_filaTres] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 4): Array
+(
+    [id] => 225
+    [observacionesCuatro] => 
+    [accionesCuatro] => 
+    [idProblemasCuatro] => 
+    [estatusCuatro] => OK
+    [fecha_filaCuatro] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 5): Array
+(
+    [id] => 225
+    [observacionesCinco] => 
+    [accionesCinco] => 
+    [idProblemasCinco] => 
+    [estatusCinco] => OK
+    [fecha_filaCinco] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 6): Array
+(
+    [id] => 225
+    [observacionesSeis] => 
+    [accionesSeis] => 
+    [idProblemasSeis] => 
+    [estatusSeis] => OK
+    [fecha_filaSeis] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 7): Array
+(
+    [id] => 225
+    [observacionesSiete] => 
+    [accionesSiete] => 
+    [idProblemasSiete] => 
+    [estatusSiete] => OK
+    [fecha_filaSiete] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 8): Array
+(
+    [id] => 225
+    [observacionesOcho] => 
+    [accionesOcho] => 
+    [idProblemasOcho] => 
+    [estatusOcho] => OK
+    [fecha_filaOcho] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 9): Array
+(
+    [id] => 225
+    [observacionesNueve] => 
+    [accionesNueve] => 
+    [idProblemasNueve] => 
+    [estatusNueve] => OK
+    [fecha_filaNueve] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 10): Array
+(
+    [id] => 225
+    [observacionesDiez] => 
+    [accionesDiez] => 
+    [idProblemasDiez] => 
+    [estatusDiez] => OK
+    [fecha_filaDiez] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 11): Array
+(
+    [id] => 225
+    [observacionesOnce] => 
+    [accionesOnce] => 
+    [idProblemasOnce] => 
+    [estatusOnce] => OK
+    [fecha_filaOnce] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 12): Array
+(
+    [id] => 225
+    [observacionesDoce] => 
+    [accionesDoce] => 
+    [idProblemasDoce] => 
+    [estatusDoce] => N/A
+    [fecha_filaDoce] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 13): Array
+(
+    [id] => 225
+    [observacionesTrece] => 
+    [accionesTrece] => 
+    [idProblemasTrece] => 
+    [estatusTrece] => OK
+    [fecha_filaTrece] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 14): Array
+(
+    [id] => 225
+    [observacionesCatorce] => 
+    [accionesCatorce] => 
+    [idProblemasCatorce] => 
+    [estatusCatorce] => OK
+    [fecha_filaCatorce] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 15): Array
+(
+    [id] => 225
+    [observacionesQuince] => 
+    [accionesQuince] => 
+    [idProblemasQuince] => 
+    [estatusQuince] => OK
+    [fecha_filaQuince] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 16): Array
+(
+    [id] => 225
+    [observacionesDieciseis] => 
+    [accionesDieciseis] => 
+    [idProblemasDieciseis] => 
+    [estatusDieciseis] => OK
+    [fecha_filaDieciseis] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 17): Array
+(
+    [id] => 225
+    [observacionesDiecisiete] => 
+    [accionesDiecisiete] => 
+    [idProblemasDiecisiete] => 
+    [estatusDiecisiete] => OK
+    [fecha_filaDiecisiete] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 18): Array
+(
+    [id] => 225
+    [observacionesDieciocho] => 
+    [accionesDieciocho] => 
+    [idProblemasDieciocho] => 
+    [estatusDieciocho] => OK
+    [fecha_filaDieciocho] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 19): Array
+(
+    [id] => 225
+    [observacionesDiecinueve] => 
+    [accionesDiecinueve] => 
+    [idProblemasDiecinueve] => 
+    [estatusDiecinueve] => OK
+    [fecha_filaDiecinueve] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 20): Array
+(
+    [id] => 225
+    [observacionesVeinte] => 
+    [accionesVeinte] => 
+    [idProblemasVeinte] => 
+    [estatusVeinte] => OK
+    [fecha_filaVeinte] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 21): Array
+(
+    [id] => 225
+    [observacionesVeintiuno] => 
+    [accionesVeintiuno] => 
+    [idProblemasVeintiuno] => 
+    [estatusVeintiuno] => OK
+    [fecha_filaVeintiuno] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 22): Array
+(
+    [id] => 225
+    [observacionesVeintidos] => 
+    [accionesVeintidos] => 
+    [idProblemasVeintidos] => 
+    [estatusVeintidos] => OK
+    [fecha_filaVeintidos] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 23): Array
+(
+    [id] => 225
+    [observacionesVeintitres] => 
+    [accionesVeintitres] => 
+    [idProblemasVeintitres] => 
+    [estatusVeintitres] => OK
+    [fecha_filaVeintitres] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 24): Array
+(
+    [id] => 225
+    [observacionesVeinticuatro] => 
+    [accionesVeinticuatro] => 
+    [idProblemasVeinticuatro] => 
+    [estatusVeinticuatro] => OK
+    [fecha_filaVeinticuatro] => 
+)
+
+Archivos: Array
+(
+)
+
+Datos POST (fila 25): Array
+(
+    [id] => 225
+    [observacionesVeinticinco] => 
+    [accionesVeinticinco] => 
+    [idProblemasVeinticinco] => 
+    [estatusVeinticinco] => N/A
+    [fecha_filaVeinticinco] => 
+)
+
+Archivos: Array
+(
+)
+
