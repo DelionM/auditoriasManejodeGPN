@@ -429,7 +429,8 @@ $is_superadmin = ($_SESSION["tipo"] === 'superadmin');
         }
 
         .pagination button:hover {
-            background-color: #1e2363;
+            background-color: #1e236Biblioteca
+3;
         }
 
         .pagination button:disabled {
@@ -464,16 +465,16 @@ $is_superadmin = ($_SESSION["tipo"] === 'superadmin');
         }
 
         .table-modern tbody tr.tuvo-nok {
-            background-color: rgb(10, 70, 199) !important; /*  NOK histórico */
+            background-color: rgb(10, 70, 199) !important; /* NOK histórico */
             font-weight: bold;
         }
 
         .table-modern tbody tr.tuvo-nok td {
-            color:rgb(4, 92, 255) !important;
+            color: rgb(4, 92, 255) !important;
         }
 
         .table-modern tbody td.nok-current {
-            colorTENrgb(231, 11, 11) !important; /* Rojo para NOK actuales */
+            color: rgb(231, 11, 11) !important; /* Rojo para NOK actuales */
             font-weight: bold;
             background-color: #d1f2eb;
             width: 10px;
@@ -625,7 +626,7 @@ $is_superadmin = ($_SESSION["tipo"] === 'superadmin');
                     <select id="statusFilter" class="form-select">
                         <option value="">Todos los estatus</option>
                         <option value="Asignada">Asignada</option>
-                        <option value="Proceso">Proceso</option>
+                        <option value="Proceso"> proceso</option>
                         <option value="Realizada">Realizada</option>
                         <option value="Cerrada">Cerrada</option>
                         <option value="NOK">NOK</option>
@@ -1092,7 +1093,11 @@ $is_superadmin = ($_SESSION["tipo"] === 'superadmin');
                 const name = row.cells[2].textContent.toLowerCase();
                 const employee = row.cells[1].textContent.toLowerCase();
                 const week = row.cells[9].textContent.trim(); // Semana in format YYYY-Www
-                const status = row.cells[15].textContent.trim(); // Estatus text inside span
+                // Extract status from the span element inside the status cell
+                const statusCell = row.cells[15];
+                const status = statusCell.querySelector('span') ? statusCell.querySelector('span').textContent.trim() : statusCell.textContent.trim();
+                // Extract nok_count from the NOK Presentes column
+                const nokCount = parseInt(row.cells[13].textContent.trim()) || 0;
 
                 const nameMatch = name.includes(searchName);
                 const employeeMatch = employee.includes(searchEmployee);
@@ -1107,8 +1112,15 @@ $is_superadmin = ($_SESSION["tipo"] === 'superadmin');
                     weekMatch = week === normalizedWeekFilter;
                 }
 
-                // Status filter: Compare status text
-                const statusMatch = !statusFilter || status === statusFilter;
+                // Status filter: Handle NOK differently by checking nok_count
+                let statusMatch = true;
+                if (statusFilter) {
+                    if (statusFilter === 'NOK') {
+                        statusMatch = nokCount > 0;
+                    } else {
+                        statusMatch = status === statusFilter;
+                    }
+                }
 
                 row.style.display = (nameMatch && employeeMatch && weekMatch && statusMatch) ? '' : 'none';
             });

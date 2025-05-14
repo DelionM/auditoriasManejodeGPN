@@ -1162,13 +1162,10 @@ $stmt->close();
                             <input type="hidden" name="numeroEmpleado" value="12345">
                         </form>
                     </div>
-
                     <!-- Botón para guardar datos -->
                     <button id="btnGuardarDatos5_1" class="btn bg-success text-white">Guardar</button>
                 </div>
             </div>
-
-
             <!-- MODAL DEL 5.2 -->
             <div id="modalOverlay5_2" class="modal-overlay"></div>
             <div id="modalObservaciones5_2" class="modal">
@@ -2347,9 +2344,9 @@ $stmt->close();
                     </tbody>
                 </table>
 
-                <div class="d-flex justify-content-center" id="cerrarDocumento">
-                    <button class="btn btn-warning btn-lg px-5 py-3 fw-bold">Cerrar Auditoría ✅</button>
-                </div>
+                        <div class="d-flex justify-content-center" id="cerrarDocumento">
+                            <button class="btn btn-warning btn-lg px-5 py-3 fw-bold">Cerrar Auditoría ✅</button>
+                        </div>
                     </div>        
                 </tbody>
                 </table>

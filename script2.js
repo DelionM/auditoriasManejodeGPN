@@ -5,11 +5,11 @@ let statusChanged = false; // Variable global para rastrear si el estatus ya cam
 
 // Consolidar todos los eventos DOMContentLoaded en uno solo
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("El DOM está cargado");
+    // console.log("El DOM está cargado"); 
 
     // Obtener el ID de auditoría
     idGenerado = document.getElementById("idAuditoria")?.value || null;
-    console.log("ID obtenido desde el HTML:", idGenerado);
+    console.log("", idGenerado);
 
     if (idGenerado) {
         document.getElementById("numeroDocumento").textContent = idGenerado;
@@ -36,7 +36,7 @@ function cargarDatosPrevios(id) {
                 console.log("Datos cargados:", data.data);
                 llenarFormulario(data.data);
             } else {
-                console.log("No hay datos previos o error:", data.error || "Respuesta vacía");
+                console.log("", data.error || "Respuesta vacía");
             }
         })
         .catch(error => console.error("Error al cargar datos:", error));
@@ -235,7 +235,7 @@ function configurarModales() {
         { selectId: "idResultado5.2", modalId: "modalObservaciones5_2", overlayId: "modalOverlay5_2", closeId: "closeModal5_2", guardarId: "btnGuardarDatos5_2" },
         { selectId: "idResultado5.3", modalId: "modalObservaciones5_3", overlayId: "modalOverlay5_3", closeId: "closeModal5_3", guardarId: "btnGuardarDatos5_3" },
         { selectId: "idResultado5.4", modalId: "modalObservaciones5_4", overlayId: "modalOverlay5_4", closeId: "closeModal5_4", guardarId: "btnGuardarDatos5_4" },
-        { selectId: "idResultado5.5", modalId: "modalObservaciones5_5", overlayId: "modalOverlay5_5", closeId: "closeModal5_5", guardarId: "btnGuardarDatos5_5" },
+        { selectId: "idResultado5.5", modalId: "modalObservaciones5_5", overlayId: "modalOverlay5_5", closeId: "closeModal5_5", guardarId: "btnGuardarDatos5_5" }, 
         { selectId: "idResultado5.6", modalId: "modalObservaciones5_6", overlayId: "modalOverlay5_6", closeId: "closeModal5_6", guardarId: "btnGuardarDatos5_6" },
         { selectId: "idResultado5.7", modalId: "modalObservaciones5_7", overlayId: "modalOverlay5_7", closeId: "closeModal5_7", guardarId: "btnGuardarDatos5_7" },
         { selectId: "idResultado5.8", modalId: "modalObservaciones5_8", overlayId: "modalOverlay5_8", closeId: "closeModal5_8", guardarId: "btnGuardarDatos5_8" },
@@ -311,7 +311,7 @@ function cambiarEstatusEnProceso() {
         // console.log('Estatus ya cambiado previamente, no se realiza otra solicitud');
     }
 }
-
+-
 // Función genérica para guardar y actualizar filas
 function crearFuncionGuardarFila(seccion, campos, guardarBtn, editarBtn, actualizarBtn, urlGuardar, urlActualizar) {
     function guardarFila() {
@@ -779,8 +779,8 @@ function configurarCierreAuditoria() {
             let idAuditoria = document.getElementById("idAuditoria")?.value.trim() || 
                              document.getElementById("numeroDocumento")?.textContent.trim() || "";
 
-            console.log("ID Auditoría obtenido:", idAuditoria);
-            console.log("Fuentes: idAuditoria input:", document.getElementById("idAuditoria")?.value, 
+            console.log("", idAuditoria);
+            console.log("", document.getElementById("idAuditoria")?.value, 
                         "numeroDocumento:", document.getElementById("numeroDocumento")?.textContent);
 
             if (!idAuditoria) {
@@ -850,5 +850,4 @@ function bloquearElementosYEliminarBotones() {
 
 // Función vacía para Dropzone si no se usa
 function inicializarDropzone() {
-
 }

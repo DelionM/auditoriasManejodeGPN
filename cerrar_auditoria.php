@@ -39,6 +39,7 @@ if (!$row) {
     exit;
 }
 
+
 $sql = "UPDATE auditorias SET 
         idNombreOperador = ?, 
         idNombreSupervisor = ?, 

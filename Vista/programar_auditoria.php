@@ -22,7 +22,7 @@ while ($row = $result_empleados->fetch_assoc()) {
 }
 
 // Obtener proyectos para el autocomplete
-$query_proyectos = "SELECT id, gpn, numero_parte, cliente, proyecto, descripcion FROM proyectos WHERE proyecto IS NOT NULL AND cliente IS NOT NULL";
+$query_proyectos = "SELECT id, gpn, numero_parte, cliente, proyecto, descripcion, nave FROM proyectos WHERE proyecto IS NOT NULL AND cliente IS NOT NULL";
 $result_proyectos = $conexion->query($query_proyectos);
 $proyectos = [];
 while ($row = $result_proyectos->fetch_assoc()) {
@@ -83,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !isset($_POST['logout'])) {
 
     // Guardar en la base de datos
     $query = "INSERT INTO programar_auditoria 
-    (numero_empleado, nombre, nave, descripcion, proyecto, cliente, tipo_auditoria, semana, correo, estatus, gpn, numero_parte) 
+    (numero_empleado, nombre, nave, descripcion, proyecto, cliente, tipo_auditoria, semana, correo, estatus, gpn, numero_parte)     
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Asignada', ?, ?)";
     
     if ($stmt = $conexion->prepare($query)) {
@@ -491,37 +491,37 @@ if ($numero_empleado_sesion) {
     <!-- Main Content -->
     <div class="content" id="content">
         <div class="container my-3">
-            <button id="startTour" class="btn btn-info mb-2">Iniciar Guía</button>
+            <!-- <button id="startTour" class="btn btn-info mb-2">Iniciar Guía</button> -->
             <h1 class="text-center form-title">Programar Auditoría</h1>
             <div class="form-container">
                 <form method="POST" id="auditoriaForm">
                     <div class="mb-2" data-step="1" data-intro="Ingresa el número del colaborador aquí para comenzar.">
-                        <label for="num_colaborador" class="form-label">Número de Colaborador</label>
+                        <label for="num_colaborador" class="form-label"> <strong> Número de Colaborador</strong></label>
                         <div class="autocomplete-container">
                             <input type="text" class="form-control rounded-pill" name="num_colaborador" id="num_colaborador" placeholder="Escribe un número" required>
                             <div class="autocomplete-list" id="num_colaborador_list"></div>
                         </div>
                     </div>
                     <div class="mb-2" data-step="2" data-intro="El nombre se autocompletará al seleccionar el colaborador.">
-                        <label for="nombre" class="form-label">Nombre del Colaborador</label>
+                        <label for="nombre" class="form-label"> <strong>  Nombre del Colaborador </strong></label>
                         <div class="autocomplete-container">
                             <input type="text" class="form-control rounded-pill" name="nombre" id="nombre" placeholder="Escribe un nombre" required>
                             <div class="autocomplete-list" id="nombre_list"></div>
                         </div>
                     </div>
                     <div class="mb-2" data-step="3" data-intro="El correo se autocompletará al seleccionar el colaborador.">
-                        <label for="correo" class="form-label">Correo Electrónico</label>
+                        <label for="correo" class="form-label"> <strong> Correo Electrónico </strong></label>
                         <input type="text" class="readonly-field" name="correo" id="correo" readonly required>
                     </div>
                     <div class="mb-2" data-step="4" data-intro="Escribe el GPN para autocompletar los campos relacionados.">
-                        <label for="gpn" class="form-label">GPN</label>
+                        <label for="gpn" class="form-label"> <strong> GPN</strong></label>
                         <div class="autocomplete-container">
                             <input type="text" class="form-control rounded-pill" name="gpn" id="gpn" placeholder="Escribe el GPN">
                             <div class="autocomplete-list" id="gpn_list"></div>
                         </div>
                     </div>
                     <div class="mb-2" data-step="5" data-intro="Escribe el número de parte para autocompletar los campos relacionados.">
-                        <label for="numero_parte" class="form-label">Número de Parte</label>
+                        <label for="numero_parte" class="form-label"><strong> Número de Parte</strong></label>
                         <div class="autocomplete-container">
                             <input type="text" class="form-control rounded-pill" name="numero_parte" id="numero_parte" placeholder="Escribe el número de parte">
                             <div class="autocomplete-list" id="numero_parte_list"></div>
@@ -529,36 +529,23 @@ if ($numero_empleado_sesion) {
                         </div>
                     </div>
                     <div class="mb-2" data-step="6" data-intro="El cliente se autocompletará basado en el GPN o número de parte seleccionado.">
-                        <label for="cliente" class="form-label">Cliente</label>
+                        <label for="cliente" class="form-label"> <strong>Cliente</strong></label>
                         <input type="text" class="readonly-field" name="cliente" id="cliente" readonly required>
                     </div>
                     <div class="mb-2" data-step="7" data-intro="El proyecto se autocompletará basado en el GPN o número de parte seleccionado.">
-                        <label for="proyecto" class="form-label">Proyecto</label>
+                        <label for="proyecto" class="form-label">  <strong> Proyecto</strong></label>
                         <input type="text" class="readonly-field" name="proyecto" id="proyecto" readonly required>
                     </div>
                     <div class="mb-2" data-step="8" data-intro="La descripción se autocompletará basado en el GPN o número de parte seleccionado.">
-                        <label for="descripcion" class="form-label">Descripción</label>
+                        <label for="descripcion" class="form-label"> <strong> Descripción</strong></label>
                         <input type="text" class="readonly-field" name="descripcion" id="descripcion" readonly required>
                     </div>
-                    <div class="mb-2" data-step="9" data-intro="Selecciona la nave donde se realizará la auditoría.">
-                        <label for="nave" class="form-label">Nave</label>
-                        <select class="form-control rounded-pill" name="nave" required>
-                            <option value="" disabled selected>Selecciona una opción</option>
-                            <option value="Nave 1">Nave 1</option>
-                            <option value="Nave 2">Nave 2</option>
-                            <option value="Nave 3">Nave 3</option>
-                            <option value="Nave 4">Nave 4</option>
-                            <option value="Nave 5">Nave 5</option>
-                            <option value="Nave 6">Nave 6</option>
-                            <option value="Nave 7">Nave 7</option>
-                            <option value="Nave 7A">Nave 7A</option>
-                            <option value="Nave 8">Nave 8</option>
-                            <option value="Nave 9">Nave 9</option>
-                            <option value="Nave 14">Nave 14</option>
-                        </select>
+                  <div class="mb-2" data-step="9" data-intro="La nave se autocompletará basado en el GPN o número de parte seleccionado.">
+                        <label for="nave" class="form-label"> <strong> Nave</strong></label>
+                        <input type="text" class="readonly-field" name="nave" id="nave" readonly required>
                     </div>
                     <div class="mb-2" data-step="10" data-intro="Define el tipo de auditoría a realizar.">
-                        <label for="tipo_auditoria" class="form-label">Tipo de Auditoría</label>
+                        <label for="tipo_auditoria" class="form-label"> <strong> Tipo de Auditoría</strong></label>
                         <select class="form-control rounded-pill" name="tipo_auditoria" required>
                             <option value="" disabled selected>Selecciona una opción</option>
                             <option value="auditoria por Capas">Auditoría por Capas</option>
@@ -566,7 +553,7 @@ if ($numero_empleado_sesion) {
                         </select>
                     </div>
                     <div class="mb-2" data-step="11" data-intro="Selecciona la semana en la que se programará la auditoría.">
-                        <label for="semana" class="form-label">Número de Semana</label>
+                        <label for="semana" class="form-label"> <strong> Número de Semana</strong></label>
                         <input type="week" class="form-control rounded-pill" name="semana" required>
                     </div>
                     <div class="text-center mt-3" data-step="12" data-intro="Haz clic aquí para enviar la notificación una vez completes el formulario.">
@@ -689,6 +676,7 @@ if ($numero_empleado_sesion) {
             document.getElementById('cliente').value = proyecto.cliente;
             document.getElementById('proyecto').value = proyecto.proyecto;
             document.getElementById('descripcion').value = proyecto.descripcion;
+            document.getElementById('nave').value = proyecto.nave || ''; // Agregar esta línea
         });
 
         // Autocompletado para número de parte
@@ -698,6 +686,7 @@ if ($numero_empleado_sesion) {
             document.getElementById('cliente').value = proyecto.cliente;
             document.getElementById('proyecto').value = proyecto.proyecto;
             document.getElementById('descripcion').value = proyecto.descripcion;
+            document.getElementById('nave').value = proyecto.nave || ''; // Agregar esta línea
         });
 
         // Validar que al menos GPN o número de parte esté lleno
